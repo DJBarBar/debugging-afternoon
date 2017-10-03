@@ -5,6 +5,10 @@ import { connect } from 'react-redux';
 
 class ShoppingCart extends Component {
 
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         let shoppingCartDisplay = this.props.shoppingCart.map((element, index) => {
             return (
